@@ -1,0 +1,1 @@
+// implementa brute force para encontrar string ou regex pattern matching
