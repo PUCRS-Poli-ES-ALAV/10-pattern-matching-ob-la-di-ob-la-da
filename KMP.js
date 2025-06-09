@@ -50,3 +50,9 @@ class KMP {
 }
 
 module.exports = KMP;
+
+// Example usage:
+const kmp = new KMP('abc');
+const text = 'ababcabcabc';
+const result = kmp.search(text);
+console.log(result); // Output: [2, 5, 8]
